@@ -1,0 +1,192 @@
+/*Common elements*/
+body {
+    font-size: 67.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #39150C url(img/star-wars-backgrounds-25.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+    h1 {
+        color: #000000;
+        font-size: 2.0em;
+        margin: 0.5em 0 0.5em 0;
+        padding: 0;
+   }
+   h2 {
+        color: #ffffff;
+        font-size: 1.7em;
+        padding: 0px;
+        margin: 0.5em 0 0.35em 0;
+   }
+   p {
+        font-size: 1.2em;
+        line-height: 1.4em;
+        color: rgb(0, 0, 0);
+        padding: 0px;
+        margin: 0px 0.5em 0.75em 0px;
+   }
+   ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color: #C64322;
+}
+a:hover {
+    color: #333;
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+ 
+/*Header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #39150C url(img/headerimage.png) center 0px;
+    height: 200px;
+}
+header h1 {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;    
+    /*text-shadow: 1px 2px 0 #bd8437;  offset-x | offset-y | blur-radius | color */
+}
+header h2 {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 3.8em;
+    color: #ffffff;
+    margin: -0.4em 0 0 1.0em;
+    letter-spacing: 0.05em;
+}
+/*Nav Bars*/
+div.shop {
+    position: relative;
+    bottom: 50px;
+}
+ 
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
+/*Main Section*/
+div.newGames {
+    width: 600px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.384);
+    margin: 20px;
+}
+div.newGames h3{
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+div.apex {
+    padding: 25px;
+    position: relative;
+    bottom: 20px;
+}
+div.detroit {
+    position: relative;
+    float: right;
+    bottom: 300px;
+    left: 270px;
+    
+}
+div.row{
+    content: "";
+  clear: both;
+  display: table;
+}
+div.animalC{
+    position: relative;
+    bottom: 300px;
+    padding: 25px;
+}
+div.TLOU{
+    position: relative;
+    left: 360px;
+    bottom:570px;
+ 
+}
+ 
+/*Article*/
+section#Article {
+    width: 600px;
+    height: 200px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1em 0.5em 1.0em 1em;
+    border-left: #ff0000 solid 5px;
+    bottom: 580px;
+   }
+ 
+/*used games*/
+section#Used {
+    width: 600px;
+    height: 300px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1em 0.5em 1.0em 1em;
+    border-left: #ff0000 solid 5px;
+    bottom: 350px;
+    left: 638px;
+}
+div.ark{
+    position: relative;
+    left:300px;
+    bottom: 220px;
+}
+ 
+/*Footer*/
